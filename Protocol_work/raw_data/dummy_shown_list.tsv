@@ -1,0 +1,14 @@
+shown_value	translation	action
+aflyst	cancelled	remove
+ikke udført - prøven for gammel	failed - the test for old	remove
+mislyk	FAILED	remove
+n	n	binary
+neg	neg	binary
+negative	negative	binary
+pos	pos	binary
+positive	positive	binary
+prøven mislykket.	the sample failed.	remove
+p	p	binary
+8..3	8..3	keep
+6..48	6..48	keep
+8..14	8..14	keep
