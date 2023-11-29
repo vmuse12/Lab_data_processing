@@ -1,0 +1,7 @@
+value	FLAG	interval_type
+neg	0	text_response
+negative	0	text_response
+pos	1	text_response
+positive	1	text_response
+p	1	text_response
+n	0	text_response
