@@ -8,7 +8,7 @@ library(data.table)
 setwd("~/Desktop/Protocol_work/raw_data")
 
 #load in dummy data  
-measurements= fread('dummy_lab_data.tsv', colClasses= 'character')
+measurements= fread('dummy_lab_lite.tsv', colClasses= 'character')
 measurements$database= 'dummy' #retain information of where data came from
 
 ###here check that all columns and date times are in correct format
