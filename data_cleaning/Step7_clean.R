@@ -1,5 +1,5 @@
 ##### step 7 of lab cleaning script for the dummy data set
-#### by Victorine Muse, last updated November 24th, 2023 for public use
+#### by Victorine Muse, last updated December 1st, 2023 for public use
 
 ### combine qualitative data (fertility, genotyping, etc)
 
