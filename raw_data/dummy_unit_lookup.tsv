@@ -1,0 +1,158 @@
+unit	unit_clean
+Ṫ 10<sup>9</sup>/l	x 10^9 IU/L
+mmol/l	mmol/L
+kPa	kPa
+l/min	L/min
+g/l	g/L
+ṁmol/l	umol/L
+mg/l	mg/L
+U/l	IU/L
+Ṫ 10<sup>12</sup>/l	x 10^12 IU/L
+arb.enh./l	IU/L
+fl	fL
+ṁg/l	ug/L
+s	s
+fmol	fmol
+arb.enh.	IU
+pmol/l	pmol/L
+nmol/l	nmol/L
+int.enh./l	IU/L
+Ṫ 10<sup>6</sup>/l	x 10^6 IU/L
+Ṫ 10<sup>-3</sup>	mIU
+ml/min	mL/min/1.73m2
+mg/mmol	mg/mmol
+Ṫ 10<sup>-3</sup> int.enh./l	mIU/L
+%	%
+mmol/d	mmol/d
+g	g
+mg/d	mg/d
+Ṫ 10<sup>3</sup> arb.enh./l	KIU/L
+g/d	g/d
+Ṫ 10<sup>3</sup> int.enh./l	KIU/L
+h	h
+ml	mL
+kU/l	KIU/L
+mmol	mmol
+Ṫ 10<sup>6</sup>	x 10^6 IU
+ng/l	ng/L
+mg	mg
+nmol/d	nmol/d
+kat.fr.	kat.fr.
+kg/d	kg/d
+Ṫ 10<sup>3</sup>/l	KIU/L
+mmol/kg	mmol/kg
+kU/mol	kIU/mol
+ṁmol/d	umol/d
+nkat/l	nkat/L
+mU/l	mIU/L
+nmol	nmol
+mm Hg	mmHg
+cSt	cSt
+kg	kg
+mg/kg	x 10^-6 IU
+kBet. U/l	kBet. IU/L
+mmol/mol	mmol/mol
+ḞC	degC
+?g/g	ug/g
+g/kg	g/kg
+mg/inj	mg/inj
+FEU/l	FEU mg/L
+m	m
+/100 Leuk.	/100 Leuk.
+cm	cm
+mg/dL	mg/dL
+pg/ml	pg/mL
+mg FEU/l	FEU mg/L
+ṁmol	umol
+min	min
+park/ml	park/mL
+mPa s	mPa s
+Ṫ 10ġ IU/L	mIU/L
+Ṫ 10<sup>-6</sup>	x 10^-6 IU
+kIU/L	KIU/L
+kU/L	KIU/L
+titer	titer
+enh./mL	IU/mL
+fmol/L	fmol/L
+ng/L	ng/L
+ṁg/L	ug/L
+Ṫ 10<sup>6</sup>/L	x 10^6 IU/L
+ṁkat/kg	ukat/kg
+?g/100mL	ug/100mL
+nmol/L	nmol/L
+Ṫ 10ġ int.enh./L	KIU/L
+U/L	IU/L
+ṁg/ml	ug/mL
+int.enh./ml	IU/mL
+nm	nm
+g/L	g/L
+mg/L	mg/L
+kopier/ml	kopier/mL
+pmol/L	pmol/L
+ṁmol/L	umol/L
+Ṫ 10<sup>9</sup>/L	x 10^9 IU/L
+g/mol	g/mol
+mmol/L	mmol/L
+MU/mol Hb	MU/mol Hb
+mol/kg	mol/kg
+int.enh./L	IU/L
+d	d
+mm/h	mm/h
+mL	mL
+x10ġ int.enh /L	KIU/L
+IU/L	IU/L
+FEU/L	FEU mg/L
+kopier/mL	kopier/mL
+Ṫ 10ġ arb.enh./L	KIU/L
+Ṫ 10ġ IU/mL	KIU/mL
+Ṫ 10<sup>-3</sup> IU/L	mIU/L
+Ṫ 10<sup>12</sup>/L	x 10^12 IU/L
+Ṫ 10ġ /L	KIU/L
+fL	fL
+mL/min	mL/min/1.73m2
+arb.enh./L	IU/L
+pg/mL	pg/mL
+µmol/L	umol/L
+µmol/l	umol/L
+× 10³ IU/L	KIU/L
+µg/L	ug/L
+(p.d.e.)	(p.d.e.)
+× 10^9/L	x 10^9 IU/L
+× 10^9/l	x 10^9 IU/L
+enh./L	IU/L
+× 10^-6	x 10^-6 IU
+µmol/kg	umol/kg
+µg/l	ug/L
+pr.10 synsf.	pr.10 synsf.
+µmol/d	umol/d
+× 10^6/L	x 10^6 IU/L
+× 10³/L	KIU/L
+× 10^12/L	x 10^12 IU/L
+× 10^12/l	x 10^12 IU/L
+FEU mg/L	FEU mg/L
+FEU mg/l	FEU mg/L
+ml/min1.73m2	mL/min/1.73m2
+mL/min1.73m2	mL/min/1.73m2
+U/mL	IU/mL
+× 10^6/l	x 10^6 IU/L
+× 10³ int.enh./L	KIU/L
+KIU/L	KIU/L
+m²	m^2
+× 10³ enh./l	KIU/L
+1	L
+L/min	L/min
+µg/g	ug/g
+enh./l	IU/L
+× 10^6	x 10^6 IU
+× 10^-3	mIU
+mIU/L	mIU/L
+x 10^3 IU/L	KIU/L
+mm	mm
+µL	uL
+x 10^3 IU/l	KIU/L
+x 10^6 IU/L	x 10^6 IU/L
+µg/mmol	ug/mmol
+MU/mol	MU/mol
+µmol/mmol	umol/mmol
+INR	INR
+x 10^6 IU/l	x 10^6 IU/L
