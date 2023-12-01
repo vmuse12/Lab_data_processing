@@ -1,4 +1,4 @@
-### this script is intended for generic protocol use only and makes use of a dummy data set -- lab updated December 1st, 2023
+### this script is intended for generic protocol use only and makes use of a dummy data set -- last updated December 1st, 2023
 ### by Victorine Muse
 
 ##this step takes in one of the interim data sets from step 2 and fits the data seasonally by week-year (can be changed to month-year) 
