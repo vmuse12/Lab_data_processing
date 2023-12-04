@@ -115,7 +115,7 @@ for (i in 2:length){
       wts= labLengths_check[,..i-1]
       
       # access the fitted series (for plotting)
-      fit_all = nls(y ~f(A, x, offset, height), data= df, start = list(A=.01, offset= 5, height= .01), control = list(maxiter = 50000, minFactor=1/2000, warnOnly=T), algorithm = "port", weights= unlist(wts), lower= c(-1,0,-1), upper= c(1,52,1))
+      fit_all = nls(y ~f(A, x, offset, height), data= df, start = list(A=.01, offset= 23, height= .01), control = list(maxiter = 50000, minFactor=1/2000, warnOnly=T), algorithm = "port", weights= unlist(wts), lower= c(-1,0,-1), upper= c(1,52,1))
             
       # find predictions for original time series
       pred_all <- predict(fit_all, newdata=data.frame(Time=time)) ##this data can be saved iteratively if desired, or else calculated again with fitted parameters
