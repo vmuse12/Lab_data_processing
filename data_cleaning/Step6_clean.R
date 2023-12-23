@@ -22,5 +22,5 @@ allQuantNoFlagData= subset(allQuantNoFlagData, allQuantNoFlagData$rule == 'quant
 #add an empty flagged column to allow for easy merging with the other data
 allQuantNoFlagData$FLAG= 'NA'
 
-write.table(allQuantNoFlagData, file='dummy_quantitativeData_noInterval.tsv', quote=FALSE, sep='\t', row.names=FALSE)
+write.table(allQuantNoFlagData, file='dummy_QuantitativeData_noInterval.tsv', quote=FALSE, sep='\t', row.names=FALSE)
 
