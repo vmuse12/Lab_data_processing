@@ -23,6 +23,9 @@ labData= subset(labData, labData$week < 53)
 labData$new_upper= labData$ref_upper*(labData$Amplitude*cos(2*pi*(labData$week-labData$offset)/52)+labData$height+1)
 labData$new_lower= labData$ref_lower*(labData$Amplitude*cos(2*pi*(labData$week-labData$offset)/52)+labData$height+1)
 
+##remove tests that don't have a reference interval to modify
+labData= subset(labData, !(is.na(labData$ref_lower)) | !(is.na(labData$ref_upper)))
+
 #save a version of new reference data
 write.table(labData, file='labData_new_refs.tsv', quote=FALSE, sep='\t', row.names=FALSE)
 
