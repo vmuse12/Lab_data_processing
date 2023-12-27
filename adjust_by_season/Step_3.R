@@ -77,7 +77,7 @@ time= seq(1,52)
 
 labData= labData
 
-
+##here we define the chosen low parameter cosine function, you can try others or change "52" to "12" to model by month instead
 f= function(A,x,offset, height){
   A*cos(2*pi*(x-offset)/52) + height
 }
@@ -113,7 +113,8 @@ for (i in 2:length){
       colnames(df)= c('x','y')
             
       wts= labLengths_check[,..i-1]
-      
+
+      ##here we use the nonlinear least squares model for optimizing the funtion to fit the data. Other optimization models could be used but this was chosen as we could control the limits of the parameter fits to feasible values. 
       # access the fitted series (for plotting)
       fit_all = nls(y ~f(A, x, offset, height), data= df, start = list(A=.01, offset= 23, height= .01), control = list(maxiter = 50000, minFactor=1/2000, warnOnly=T), algorithm = "port", weights= unlist(wts), lower= c(-1,0,-1), upper= c(1,52,1))
             
