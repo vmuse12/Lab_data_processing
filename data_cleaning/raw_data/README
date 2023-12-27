@@ -1,1 +1,29 @@
+These data are in the dummy data set as an example of how to format the medical record data you may have access to
 
+Column name - Description
+pid - patient identification number
+lab_id - where the test was processed (laboratory ID or hospital ID)
+quantity_id - lab test code
+system - what biological substance the test was carried out on
+component - original character version of the quantity_id
+unit - original reported unit
+ref_lower - original reported ref_lower value (lower limit for normal range)
+ref_upper - original reported ref_upper value (upper limit for normal range)
+value - original reported response value (text or numeric)
+date - date test was was drawn YYYY-MM-DD
+time - time test was drawn HH:mm:ss
+
+After cleaning, these columns will be newly available
+
+Column name - Description
+database - database observation was taken from (bcc vs labka)
+component_clean - uniform component names in English
+unit_clean - cleaned unit value
+system_clean- cleaned system 
+value_clean - cleaned test response value  (text or numeric)
+ref_lower_clean - cleaned ref_lower value
+ref_upper_clean - cleaned ref_upper value
+interval_type - what reference range is available (interval, upper_limit, lower_limit, text_response, or none)
+FLAG - flagging system of -1,0,1 (NA indicates no usable reference range was provided)
+DOB - date of birth
+sex - sex
